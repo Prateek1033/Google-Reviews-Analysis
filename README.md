@@ -83,7 +83,7 @@ The main objective of this project is to:
 
 **How to Run**
 1.	Clone the repository
- git clone https://github.com/Prateek1033/Google-Playstore-Analysis.git
+ git clone [https://github.com/Prateek1033/Google-Playstore-Analysis.git](https://github.com/Prateek1033/Google-Reviews-Analysis/tree/main)
 2.	Install dependencies
  pip install pandas numpy matplotlib seaborn plotly nltk scikit-learn
 3.	Download NLTK VADER Lexicon
