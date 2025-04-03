@@ -82,14 +82,14 @@ The main objective of this project is to:
 ![image](https://github.com/user-attachments/assets/ebb5cf18-a493-4298-b11f-12e2cd368169)
 
 **How to Run**
-	1.	Clone the repository
+1.	Clone the repository
  git clone https://github.com/Prateek1033/Google-Playstore-Analysis.git
-	2.	Install dependencies
+2.	Install dependencies
  pip install pandas numpy matplotlib seaborn plotly nltk scikit-learn
- 3.	Download NLTK VADER Lexicon
+3.	Download NLTK VADER Lexicon
 import nltk
 nltk.download('vader_lexicon')
-	4.	Run Jupyter Notebook
+4.	Run Jupyter Notebook
 jupyter notebook "Google playstore analysis.ipynb"
 
 
