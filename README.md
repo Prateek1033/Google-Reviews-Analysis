@@ -93,7 +93,7 @@ nltk.download('vader_lexicon')
 jupyter notebook "Google playstore analysis.ipynb"
 
 
-**Tasks**These FIVE Tasks has been given by the client(NULL CLASS) to complete 
+**Tasks** These FIVE Tasks has been given by the client(NULL CLASS) to complete 
 
 1. Visualize the sentiment distribution (positive, neutral, negative) of user reviews using a stacked bar chart, segmented by rating groups (e.g., 1-2 stars, 3-4 stars, 4-5 stars). Include only apps with more than 1,000 reviews and group by the top 5 categories.
 
@@ -116,7 +116,7 @@ Filters & Logic Applied:
 	•	Only apps with more than 1,000 reviews were included to ensure significant sentiment volume.
 	•	Data is grouped by the Top 5 app categories based on app count.
 	•	Reviews are preprocessed to classify into Positive, Negative, or Neutral, using NLTK’s VADER Sentiment Analyzer.
-	•	Ratings were binned into three intuitive ranges:
+Ratings were binned into three intuitive ranges:
 	•	1.0–2.9 stars: Low Rated
 	•	3.0–3.9 stars: Average Rated
 	•	4.0–5.0 stars: Top Rated
@@ -167,7 +167,7 @@ Filters & Custom Conditions Applied:
 Insight Gained:
 	•	Categories such as Education, Business, and Entertainment showed widespread install footprints and crossed the 1 million installs threshold in multiple regions.
 	•	This type of visualization helps stakeholders identify popular app categories by geographical spread and prepare region-specific marketing strategies.
-**OUTPUT OF TASK 3**
+ **OUTPUT OF TASK 3**
 <img width="1440" alt="Screenshot 2025-04-20 at 6 05 37 PM" src="https://github.com/user-attachments/assets/0fcf295b-bc9d-4f73-8797-443bdf82f57f" />
 
 
@@ -189,7 +189,7 @@ Insight Gained:
 	•	The violin plot highlights how lower-rated apps (rating < 4.0) are distributed across different categories.
 	•	Categories such as Communication and Tools had wider distributions, indicating mixed user feedback and potentially unstable experiences.
 	•	Compact violins (like those in the Education or Books categories) suggest more consistency in user ratings, even among lower-rated apps.
-**OUTPUT OF TASK 4**
+ **OUTPUT OF TASK 4**
 <img width="1440" alt="Screenshot 2025-04-20 at 5 40 01 PM" src="https://github.com/user-attachments/assets/67b68a7a-664d-4347-a435-64fad5bd71e8" />
 
 **Task 5**
