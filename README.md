@@ -123,7 +123,8 @@ Filters & Logic Applied:
 Insight Gained:
 This chart helps correlate app ratings with user sentiment, showing how highly rated apps generally receive more positive feedback, while lower-rated apps tend to accumulate more negative or neutral sentiment.
 **OUTPUT OF TASK 1**
-<img width="1440" alt="Screenshot 2025-04-20 at 5 40 01 PM" src="https://github.com/user-attachments/assets/3239f2a6-5654-4b40-9f95-baf9cddd84f5" />
+<img width="1440" alt="Screenshot 2025-04-20 at 5 38 55 PM" src="https://github.com/user-attachments/assets/1f4f2def-1f02-4be4-860f-623d523454e1" />
+
 
 **Task 2**
 Time Window for this graph: Visible only between 1:00 PM – 2:00 PM IST on Dashboard
