@@ -105,5 +105,112 @@ jupyter notebook "Google playstore analysis.ipynb"
 
 5. Plot a time series line chart to show the trend of total installs over time, segmented by app category. Highlight periods of significant growth by shading the areas under the curve where the increase in installs exceeds 20% month-over-month and app name should not starts with x, y ,z and app category should start with letter " E " or " C " or " B " and reviews should be more than 500 as well as this graph should work only between 6 PM IST to 9 PM IST apart from that time we should not show this graph in dashboard itself.
 
-Task 1
- 
+**Task 1**
+Graph Type: Stacked Bar Chart (Sentiment × Rating Group × Category)
+
+Description:
+This visualization analyzes user sentiment (Positive, Neutral, Negative) derived from app reviews and displays it using a stacked bar chart.
+Each bar represents a rating group (e.g., 1-2 stars, 3-4 stars, 4-5 stars), and is segmented by sentiment types.
+
+Filters & Logic Applied:
+	•	Only apps with more than 1,000 reviews were included to ensure significant sentiment volume.
+	•	Data is grouped by the Top 5 app categories based on app count.
+	•	Reviews are preprocessed to classify into Positive, Negative, or Neutral, using NLTK’s VADER Sentiment Analyzer.
+	•	Ratings were binned into three intuitive ranges:
+	•	1.0–2.9 stars: Low Rated
+	•	3.0–3.9 stars: Average Rated
+	•	4.0–5.0 stars: Top Rated
+Insight Gained:
+This chart helps correlate app ratings with user sentiment, showing how highly rated apps generally receive more positive feedback, while lower-rated apps tend to accumulate more negative or neutral sentiment.
+**OUTPUT OF TASK 1**
+<img width="1440" alt="Screenshot 2025-04-20 at 5 40 01 PM" src="https://github.com/user-attachments/assets/3239f2a6-5654-4b40-9f95-baf9cddd84f5" />
+
+**Task 2**
+Time Window for this graph: Visible only between 1:00 PM – 2:00 PM IST on Dashboard
+Graph Type: Dual-axis bar chart
+Description:
+This visualization provides a comparative overview of Free vs Paid apps in terms of their average installs (on primary Y-axis) and average revenue (on secondary Y-axis) across the top 3 app categories.
+It leverages a dual-axis chart, where:
+	•	Bars represent average installs for Free and Paid apps
+	•	Lines represent average revenue for the same groups
+Filters & Criteria Applied:
+	•	Apps must belong to the top 3 most frequent categories
+	•	Minimum installs: ≥ 10,000
+	•	Minimum revenue: ≥ $10,000
+	•	Size: > 15 MB
+	•	Android version: > 4.0
+	•	Content Rating: Everyone
+	•	App name character limit: ≤ 30 characters (including spaces/symbols)
+
+This graph is only rendered if the current system time is between 1 PM and 2 PM IST, ensuring contextual delivery of insights.
+Insight Gained:
+	•	Free apps generally have higher install counts but lower revenue per app.
+	•	Paid apps, while having fewer installs, generate significantly higher revenue due to direct purchase models.
+	•	Categories like Productivity, Tools, and Education often highlight these contrasts more clearly.
+**OUTPUT OF TASK 2**
+
+
+**Task 3**
+Time Window for this graph: Visible only between 6 PM – 8 PM IST on Dashboard
+Graph Type: Choropleth Map (Geo Visualization)
+Tool Used: Plotly Express
+Description:
+This task features an interactive Choropleth map to represent the global distribution of app installs by category, offering a geospatial perspective of market penetration. Since direct geolocation was unavailable in the dataset, this visualization relies on category-based aggregation with random mock country mapping, ideal for conceptual display in dashboards or POCs.
+
+Filters & Custom Conditions Applied:
+	•	Only includes top 5 app categories based on total installs.
+	•	Highlights categories where total installs > 1 million.
+	•	Excludes all categories that begin with the letters: A, C, G, or S (e.g., ART_AND_DESIGN, COMMUNICATION, etc.)
+	•	This chart is time-sensitive and only appears in the dashboard between 6 PM to 8 PM IST to encourage contextual engagement.
+
+Insight Gained:
+	•	Categories such as Education, Business, and Entertainment showed widespread install footprints and crossed the 1 million installs threshold in multiple regions.
+	•	This type of visualization helps stakeholders identify popular app categories by geographical spread and prepare region-specific marketing strategies.
+**OUTPUT OF TASK 3**
+<img width="1440" alt="Screenshot 2025-04-20 at 6 05 37 PM" src="https://github.com/user-attachments/assets/0fcf295b-bc9d-4f73-8797-443bdf82f57f" />
+
+
+**Task 4**
+Time Window for this graph: Visible only between 4 PM – 6 PM IST on Dashboard
+Graph Type: Violin Plot
+Tool Used: Plotly Express
+Description:
+
+This task uses a violin plot to explore the distribution of user ratings across app categories. The violin plot is ideal for visualizing density, spread, and central tendencies of ratings for each qualifying category. It shows both distribution shape and outliers, making it easier to understand variability in app feedback.
+
+Filters & Custom Conditions Applied:
+	•	Only includes categories that have more than 50 apps.
+	•	App names must contain the letter “C” (case-insensitive).
+	•	Apps with fewer than 10 reviews are excluded.
+	•	Only includes apps with a rating less than 4.0.
+	•	This graph is conditionally rendered and appears in the dashboard only between 4 PM and 6 PM IST.
+Insight Gained:
+	•	The violin plot highlights how lower-rated apps (rating < 4.0) are distributed across different categories.
+	•	Categories such as Communication and Tools had wider distributions, indicating mixed user feedback and potentially unstable experiences.
+	•	Compact violins (like those in the Education or Books categories) suggest more consistency in user ratings, even among lower-rated apps.
+**OUTPUT OF TASK 4**
+<img width="1440" alt="Screenshot 2025-04-20 at 5 40 01 PM" src="https://github.com/user-attachments/assets/67b68a7a-664d-4347-a435-64fad5bd71e8" />
+
+**Task 5**
+Time Window for this graph: Visible only between 6 PM – 9 PM IST on Dashboard
+Graph Type: Time Series Line Chart with Shaded Growth Regions
+Tool Used: Plotly Graph Objects
+
+Description:
+This task generates an interactive time series chart to track how total app installs have evolved over time, segmented by app categories. The key enhancement is the highlighting of time periods where month-over-month (MoM) growth in installs exceeds 20%, providing a visual indicator of explosive user adoption or successful promotional periods.
+
+Filters & Custom Conditions Applied:
+	•	Only includes apps where:
+	•	App name does NOT start with X, Y, or Z.
+	•	App category starts with E, C, or B (e.g., Education, Communication, Business).
+	•	The app has received more than 500 reviews.
+	•	The dataset is aggregated by month using the Last Updated field.
+	•	Growth is calculated as a % increase from the previous month, and if the growth is greater than 20%, that segment is shaded under the line using a transparent fill.
+	•	This chart is conditionally visible only between 6 PM and 9 PM IST, ensuring controlled access based on time logic.
+
+Insight Gained:
+	•	Categories like Education and Communication saw notable growth spikes, especially during months that align with exam seasons, school terms, or global events (like remote learning).
+	•	Shaded regions under the lines effectively communicate “growth bursts”, making it easy for stakeholders to identify performance jumps.
+	•	Flat or declining lines for some months signal either saturation or lack of product updates.
+ **OUTPUT OF TASK 5**
+<img width="1440" alt="Screenshot 2025-04-20 at 6 02 00 PM" src="https://github.com/user-attachments/assets/85bbdccd-5389-4e57-b961-02671ec2590e" />
