@@ -1,4 +1,4 @@
-# Google-Playstore-Reviews-Analysis
+<img width="1440" alt="Screenshot 2025-04-20 at 6 05 37 PM" src="https://github.com/user-attachments/assets/bd55e0ee-140b-41e8-ba90-cefc449597b8" /># Google-Playstore-Reviews-Analysis
  Google Playstore Analysis & Sentiment Dashboard
 
 This repository contains a detailed end-to-end data analysis project on the Google Play Store app data along with an interactive web-based dashboard.
@@ -214,4 +214,5 @@ Insight Gained:
 	•	Shaded regions under the lines effectively communicate “growth bursts”, making it easy for stakeholders to identify performance jumps.
 	•	Flat or declining lines for some months signal either saturation or lack of product updates.
  **OUTPUT OF TASK 5**
-<img width="1440" alt="Screenshot 2025-04-20 at 6 02 00 PM" src="https://github.com/user-attachments/assets/85bbdccd-5389-4e57-b961-02671ec2590e" />
+ <img width="1440" alt="Screenshot 2025-04-20 at 6 05 37 PM" src="https://github.com/user-attachments/assets/b09a7e0f-0c02-441e-a12c-6ae566109b9a" />
+
