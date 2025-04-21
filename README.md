@@ -134,8 +134,8 @@ Graph Type: Dual-axis bar chart
 Description:
 This visualization provides a comparative overview of Free vs Paid apps in terms of their average installs (on primary Y-axis) and average revenue (on secondary Y-axis) across the top 3 app categories.
 It leverages a dual-axis chart, where:
-	•	Bars represent average installs for Free and Paid apps
-	•	Lines represent average revenue for the same groups
+•	Bars represent average installs for Free and Paid apps
+•	Lines represent average revenue for the same groups
 Filters & Criteria Applied:
 	•	Apps must belong to the top 3 most frequent categories
 	•	Minimum installs: ≥ 10,000
