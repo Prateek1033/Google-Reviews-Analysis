@@ -123,6 +123,7 @@ Ratings were binned into three intuitive ranges:
 	•	4.0–5.0 stars: Top Rated
 Insight Gained:
 This chart helps correlate app ratings with user sentiment, showing how highly rated apps generally receive more positive feedback, while lower-rated apps tend to accumulate more negative or neutral sentiment.
+
 **OUTPUT OF TASK 1**
 <img width="1440" alt="Screenshot 2025-04-20 at 5 38 55 PM" src="https://github.com/user-attachments/assets/1f4f2def-1f02-4be4-860f-623d523454e1" />
 
@@ -149,6 +150,7 @@ Insight Gained:
 	•	Free apps generally have higher install counts but lower revenue per app.
 	•	Paid apps, while having fewer installs, generate significantly higher revenue due to direct purchase models.
 	•	Categories like Productivity, Tools, and Education often highlight these contrasts more clearly.
+
 **OUTPUT OF TASK 2**
 <img width="1440" alt="Screenshot 2025-04-21 at 1 43 26 PM" src="https://github.com/user-attachments/assets/4768f5bd-3df4-4674-a14d-3ddacd05b2c9" />
 
@@ -169,7 +171,8 @@ Filters & Custom Conditions Applied:
 Insight Gained:
 	•	Categories such as Education, Business, and Entertainment showed widespread install footprints and crossed the 1 million installs threshold in multiple regions.
 	•	This type of visualization helps stakeholders identify popular app categories by geographical spread and prepare region-specific marketing strategies.
- **OUTPUT OF TASK 3**
+ 
+**OUTPUT OF TASK 3**
 <img width="1440" alt="Screenshot 2025-04-20 at 6 05 37 PM" src="https://github.com/user-attachments/assets/0fcf295b-bc9d-4f73-8797-443bdf82f57f" />
 
 
@@ -191,6 +194,7 @@ Insight Gained:
 	•	The violin plot highlights how lower-rated apps (rating < 4.0) are distributed across different categories.
 	•	Categories such as Communication and Tools had wider distributions, indicating mixed user feedback and potentially unstable experiences.
 	•	Compact violins (like those in the Education or Books categories) suggest more consistency in user ratings, even among lower-rated apps.
+
  **OUTPUT OF TASK 4**
 <img width="1440" alt="Screenshot 2025-04-20 at 5 40 01 PM" src="https://github.com/user-attachments/assets/67b68a7a-664d-4347-a435-64fad5bd71e8" />
 
@@ -215,6 +219,7 @@ Insight Gained:
 	•	Categories like Education and Communication saw notable growth spikes, especially during months that align with exam seasons, school terms, or global events (like remote learning).
 	•	Shaded regions under the lines effectively communicate “growth bursts”, making it easy for stakeholders to identify performance jumps.
 	•	Flat or declining lines for some months signal either saturation or lack of product updates.
+
  **OUTPUT OF TASK 5**
 <img width="1440" alt="Screenshot 2025-04-20 at 6 11 05 PM" src="https://github.com/user-attachments/assets/e7628f96-de12-443f-8b30-b20b8b87749d" />
 
