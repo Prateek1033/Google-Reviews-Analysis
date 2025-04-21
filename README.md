@@ -149,6 +149,7 @@ Insight Gained:
 	•	Paid apps, while having fewer installs, generate significantly higher revenue due to direct purchase models.
 	•	Categories like Productivity, Tools, and Education often highlight these contrasts more clearly.
 **OUTPUT OF TASK 2**
+<img width="1440" alt="Screenshot 2025-04-21 at 1 43 26 PM" src="https://github.com/user-attachments/assets/4768f5bd-3df4-4674-a14d-3ddacd05b2c9" />
 
 
 **Task 3**
