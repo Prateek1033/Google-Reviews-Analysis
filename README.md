@@ -13,6 +13,7 @@ The main objective of this project is to:
 	•	Analyze sentiment of user reviews using NLP (Sentiment Analysis)
 	•	Generate interactive visualizations using Plotly
 	•	Build a Web-Based Interactive Dashboard for presenting key insights
+
 **Project Structure**
  📦 Google-Playstore-Analysis
  ┣ 📄 Google playstore analysis.ipynb
