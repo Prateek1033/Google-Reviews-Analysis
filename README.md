@@ -7,12 +7,18 @@ The project covers everything from Data Cleaning, EDA, Sentiment Analysis, and D
 **Project Objective**
 
 The main objective of this project is to:
-	•	Clean and preprocess the Google Playstore Dataset
-	•	Handle missing values, duplicates & irrelevant data
-	•	Transform and normalize the data
-	•	Analyze sentiment of user reviews using NLP (Sentiment Analysis)
-	•	Generate interactive visualizations using Plotly
-	•	Build a Web-Based Interactive Dashboard for presenting key insights
+	
+ •	Clean and preprocess the Google Playstore Dataset
+	
+ •	Handle missing values, duplicates & irrelevant data
+	
+ •	Transform and normalize the data
+	
+ •	Analyze sentiment of user reviews using NLP (Sentiment Analysis)
+	
+ •	Generate interactive visualizations using Plotly
+	
+ •	Build a Web-Based Interactive Dashboard for presenting key insights
 
 **Project Structure**
 
@@ -53,7 +59,7 @@ Google-Playstore-Analysis
  
 **Key Components**
 
-1. Data Cleaning & Preprocessing
+**1. Data Cleaning & Preprocessing**
 	
  •	Missing Value Handling: Used .dropna() and .fillna() methods.
 	
@@ -65,7 +71,7 @@ Google-Playstore-Analysis
 	
  •	Data Normalization: Converted app sizes into MB and applied log transformation on Installs and Reviews.
 
-2. Sentiment Analysis
+**2. Sentiment Analysis**
 	
  •	Performed Sentiment Analysis on user reviews using VADER Sentiment Analyzer.
 	
@@ -73,7 +79,7 @@ Google-Playstore-Analysis
 	
  •	Categorized sentiments as Positive, Negative, Neutral.
 
-3. Feature Engineering
+**3. Feature Engineering**
 	
  •	Added new metrics like:
 	
@@ -83,7 +89,7 @@ Google-Playstore-Analysis
 	
  •	Extracted Year from the Last Updated column.
 
-4. Data Visualization & Dashboard
+**4. Data Visualization & Dashboard**
 	
  •	Created Interactive Graphs using Plotly Express:
 	
